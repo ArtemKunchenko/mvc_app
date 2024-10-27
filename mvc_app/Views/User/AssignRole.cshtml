@@ -1,0 +1,15 @@
+﻿@* @addTagHelper *, Microsoft.AspNetCore.Mvc.TagHelpers *@
+
+@{
+	Layout = "_Layout";
+}
+
+<h3>Page assign role</h3>
+
+<form action="AssignRole" method="post">
+	<label for="userId">User id:</label>
+	<input type="text" id="userId" name="userId" required />
+	<label for="roleName">Role name:</label>
+	<input type="text" id="roleName" name="roleName" required />
+	<button type="submit" >ASSIGN</button>
+</form>

@@ -1,0 +1,15 @@
+﻿@* @addTagHelper *, Microsoft.AspNetCore.Mvc.TagHelpers *@
+
+@{
+	Layout = "_Layout";
+}
+
+<h3>Page register</h3>
+
+<form action="Register" method="post">
+	<label for="email">Email:</label>
+	<input type="email" id="email" name="email"required />
+	<label for="password">Password:</label>
+	<input type="password" id="password" name="password" required />
+	<button type="submit" value="register">REGISTER</button>
+</form>
